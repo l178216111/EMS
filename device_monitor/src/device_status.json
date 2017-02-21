@@ -1,0 +1,14 @@
+{
+	"device_status":[
+	"RUNNING",
+	"QUAL",
+	"UALARM",
+	"IDLE",
+	"UENGEVL",
+	"UENDATA",
+	"SMMAINT",
+	"UMMAINT",
+	"OFFLINE",
+	"RUNCOND"
+	]
+}

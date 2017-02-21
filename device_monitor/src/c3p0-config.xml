@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c3p0-config>
+	<default-config>
+		<property name="driverClass">oracle.jdbc.driver.OracleDriver</property>
+		<property name="jdbcUrl">jdbc:oracle:thin:@(DESCRIPTION =(ADDRESS = (PROTOCOL = TCP)(HOST = 10.192.130.199)(PORT = 1524))(CONNECT_DATA =(SERVER = DEDICATED)(SID = tjnptor)))</property>
+		<property name="user">probe</property>
+		<property name="password">probeappsweb</property>
+		<property name="acquireIncrement">2</property>
+		<property name="initialPoolSize">1</property>
+		<property name="minPoolSize">1</property>
+		<property name="maxPoolSize">5</property>
+		<property name="maxIdleTime">60</property>
+		<property name="idleConnectionTestPeriod">60</property>
+	</default-config>
+</c3p0-config>
